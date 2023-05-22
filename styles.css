@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+
+    font-family: 'Outfit';
+
+    
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+
+
+}
+
+#qr-container {
+    display: flex;
+    flex-direction: column;
+
+    /* align-self: center; */
+
+
+    background-color: white;
+    border-radius: 5%;
+
+    text-align: center;
+
+    padding: 10px;
+    max-width: 250px;
+    margin: auto;
+
+
+}
+
+#qrimg {    
+    height: 250px;
+    width: 250px;
+
+    border-radius: 5%;
+}
